@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>¡Descubre el emocionante mundo de los deportes locales!</h1>
+  </header>
+
+  <nav>
+    <img src="Imagenes/logo.jpg" alt="logo">
+    <ul>
+
+      <li><a href="#noticias">Noticias</a></li>
+      <li><a href="#comentarios">Comentarios</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#contacto">Contactanos</a></li>
+    </ul>
+  </nav>
+
+  <section id="noticias">
+    <article>
+      <h2>Últimas noticias deportivas</h2>
+      <p>¡Mantente al día con las últimas novedades en el mundo del deporte!</p>
+
+      <img src="Imagenes/deportesimagen.jpg" alt="deportesimagen">
+    </article>
+  </section>
+
+  <section id="comentarios">
+    <article>
+      <h2>Comentarios</h2> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-chat-left-text-fill" viewBox="0 0 16 16">
+        <path
+          d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z" />
+      </svg>
+
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="comentario">Comentario:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea><br>
+
+        <input type="submit" value="Enviar comentario">
+      </form>
+    </article>
+  </section>
+
+  <section id="videos">
+    <article>
+      <h2>Videos deportivos</h2>
+      <video controls>
+        <source src="Imagenes/deportes.mp4" type="video/mp4">
+        Tu navegador no admite la etiqueta de video.
+      </video>
+    </article>
+  </section>
+
+  <section id="testimonios">
+    <article>
+      <h2>Testimonios deportivos</h2>
+      <div class="testimonial">
+        <img src="Imagenes/testimonio1.jpg" alt="Testimonio 1">
+        <p>Testimonio de Juan: "¡Gracias a la práctica constante y al apoyo de este sitio, he logrado mejorar mi
+          rendimiento deportivo!"</p>
+      </div>
+      <div class="testimonial">
+        <img src="Imagenes/testimoniomaria.jpg" alt="Testimonio 2">
+        <p>Testimonio de María: "Nunca pensé que podría superar mis límites hasta que encontré esta comunidad
+          deportiva. ¡Recomendado al 100%!"</p>
+      </div>
+    </article>
+  </section>
+
+  <section id="contacto">
+    <article>
+      <h2>Formulario de contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="sexo">Sexo:</label><br>
+        <input type="radio" id="masculino" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label><br>
+
+        <input type="radio" id="femenino" name="sexo" value="femenino">
+        <label for="femenino">Femenino</label><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Página de Deportes. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+
+</html>
