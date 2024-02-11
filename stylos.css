@@ -1,0 +1,178 @@
+body {
+  background-image: url("Imagenes/fondo.jpg");
+  background-size: cover;
+  background-position: contain;
+  background-repeat: repeat;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para el logo */
+nav img {
+  width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+  display: block;
+  margin: 0 auto; /* Centra el logo horizontalmente */
+}
+
+/* Estilos para la navegación */
+nav {
+  text-align: center; /* Centra los elementos de la navegación */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Estilos para las secciones */
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc; /* Línea divisoria entre secciones */
+}
+
+/* Estilos para los artículos */
+article {
+  margin-bottom: 20px;
+}
+
+article h2 {
+  color: #333;
+}
+
+/* Estilos específicos para las imágenes */
+img {
+  display: block;
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+#noticias img,
+#testimonios img {
+  width: 100%; /* Las imágenes en noticias y testimonios ocuparán todo el ancho de su contenedor */
+  max-width: 600px; /* Limita el tamaño máximo de las imágenes */
+}
+
+#videos video {
+  width: 100%; /* El video ocupará todo el ancho de su contenedor */
+}
+
+/* Estilos para el formulario */
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilos para el menú */
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative; /* Agrega posición relativa para los elementos del menú */
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative; /* Agrega posición relativa para los enlaces del menú */
+}
+
+nav ul li a:hover {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade sombra al pasar el cursor */
+}
+
+/* Estilos para los testimonios */
+.testimonial {
+  text-align: center; /* Centra el contenido */
+}
+
+.testimonial img {
+  width: 200px; /* Ajusta el tamaño de las imágenes */
+  border-radius: 50%; /* Aplica un borde redondeado a las imágenes */
+  margin-bottom: 10px; /* Añade espacio entre la imagen y el texto */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agrega sombra a las imágenes */
+}
+
+/* Estilos para los testimonios */
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.testimonial img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial p {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  flex: 1;
+}
+
+.testimonial p::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: -20px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+}
