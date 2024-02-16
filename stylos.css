@@ -1,12 +1,10 @@
+/* Estilos para el cuerpo */
 body {
-  background-image: url("Imagenes/fondo.jpg");
-  background-size: cover;
-  background-position: contain;
-  background-repeat: repeat;
+  background-color: #f0f0f0; /* Cambia el color de fondo del cuerpo */
 }
 
 /* Estilos para el encabezado */
-header {
+.header {
   background-color: #333;
   color: #fff;
   padding: 20px;
@@ -14,82 +12,82 @@ header {
 }
 
 /* Estilos para el logo */
-nav img {
+.logo {
   width: 100px; /* Ajusta el tamaño del logo según sea necesario */
   display: block;
   margin: 0 auto; /* Centra el logo horizontalmente */
 }
 
 /* Estilos para la navegación */
-nav {
+.nav {
   text-align: center; /* Centra los elementos de la navegación */
 }
 
-nav ul {
+.nav ul {
   list-style-type: none;
   padding: 0;
 }
 
-nav ul li {
+.nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
 
-nav ul li:last-child {
+.nav ul li:last-child {
   margin-right: 0; /* Elimina el margen derecho del último elemento */
 }
 
-nav ul li a {
+.nav ul li a {
   color: #333;
   text-decoration: none;
   font-weight: bold;
 }
 
 /* Estilos para las secciones */
-section {
+.section {
   padding: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid #ccc; /* Línea divisoria entre secciones */
 }
 
 /* Estilos para los artículos */
-article {
+.article {
   margin-bottom: 20px;
 }
 
-article h2 {
+.article h2 {
   color: #333;
 }
 
 /* Estilos específicos para las imágenes */
-img {
+.img {
   display: block;
   margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
-#noticias img,
-#testimonios img {
+.section-noticias .img,
+.section-testimonios .img {
   width: 100%; /* Las imágenes en noticias y testimonios ocuparán todo el ancho de su contenedor */
   max-width: 600px; /* Limita el tamaño máximo de las imágenes */
 }
 
-#videos video {
+.section-videos .video {
   width: 100%; /* El video ocupará todo el ancho de su contenedor */
 }
 
 /* Estilos para el formulario */
-form {
+.form {
   margin-top: 20px;
 }
 
-form label {
+.form label {
   display: block;
   margin-bottom: 5px;
 }
 
-form input[type="text"],
-form input[type="email"],
-form textarea {
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -97,7 +95,7 @@ form textarea {
   border-radius: 5px;
 }
 
-form input[type="submit"] {
+.form input[type="submit"] {
   padding: 10px 20px;
   background-color: #333;
   color: #fff;
@@ -107,7 +105,7 @@ form input[type="submit"] {
 }
 
 /* Estilos para el pie de página */
-footer {
+.footer {
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -115,20 +113,20 @@ footer {
 }
 
 /* Estilos para el menú */
-nav ul li {
+.nav ul li {
   display: inline-block;
   margin-right: 20px;
   position: relative; /* Agrega posición relativa para los elementos del menú */
 }
 
-nav ul li a {
+.nav ul li a {
   color: #333;
   text-decoration: none;
   font-weight: bold;
   position: relative; /* Agrega posición relativa para los enlaces del menú */
 }
 
-nav ul li a:hover {
+.nav ul li a:hover {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade sombra al pasar el cursor */
 }
 
@@ -137,21 +135,20 @@ nav ul li a:hover {
   text-align: center; /* Centra el contenido */
 }
 
-.testimonial img {
+.testimonial-img {
   width: 200px; /* Ajusta el tamaño de las imágenes */
   border-radius: 50%; /* Aplica un borde redondeado a las imágenes */
   margin-bottom: 10px; /* Añade espacio entre la imagen y el texto */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agrega sombra a las imágenes */
 }
 
-/* Estilos para los testimonios */
-.testimonial {
+.testimonial-box {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
 
-.testimonial img {
+.testimonial-img {
   width: 200px;
   height: auto;
   border-radius: 50%;
@@ -159,7 +156,7 @@ nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.testimonial p {
+.testimonial-text {
   padding: 15px;
   background-color: #fff;
   border-radius: 15px;
@@ -167,7 +164,7 @@ nav ul li a:hover {
   flex: 1;
 }
 
-.testimonial p::before {
+.testimonial-text::before {
   content: "";
   position: absolute;
   top: 20px;
