@@ -14,7 +14,7 @@
   </header>
 
   <nav class="nav">
-    <img src="Imagenes/logo.jpg" alt="logo">
+    <img src="Imagenes/logo.jpg" alt="logo" class="logo">
     <ul class="nav-list">
       <li class="nav-item"><a href="#noticias" class="nav-link">Noticias</a></li>
       <li class="nav-item"><a href="#comentarios" class="nav-link">Comentarios</a></li>
@@ -29,7 +29,7 @@
       <h2>Últimas noticias deportivas</h2>
       <p>¡Mantente al día con las últimas novedades en el mundo del deporte!</p>
 
-      <img src="Imagenes/deportesimagen.jpg" alt="deportesimagen">
+      <img src="Imagenes/deportesimagen.jpg" alt="deportesimagen" class="img">
     </article>
   </section>
 
@@ -41,7 +41,7 @@
           d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z" />
       </svg>
 
-      <form action="#" method="post">
+      <form action="#" method="post" class="form">
         <label for="nombre">Nombre:</label><br>
         <input type="text" id="nombre" name="nombre" required><br>
 
@@ -53,36 +53,38 @@
     </article>
   </section>
 
-  <section id="videos">
-    <article>
+  <section id="videos" class="section section-videos">
+    <article class="article">
       <h2>Videos deportivos</h2>
-      <video controls>
+      <video controls class="video">
         <source src="Imagenes/deportes.mp4" type="video/mp4">
         Tu navegador no admite la etiqueta de video.
       </video>
     </article>
   </section>
 
-  <section id="testimonios">
-    <article>
+  <section id="testimonios" class="section section-testimonios">
+    <article class="article">
       <h2>Testimonios deportivos</h2>
-      <div class="testimonial">
-        <img src="Imagenes/testimonio1.jpg" alt="Testimonio 1">
-        <p>Testimonio de Juan: "¡Gracias a la práctica constante y al apoyo de este sitio, he logrado mejorar mi
+      <div class="testimonial testimonial-box">
+        <img src="Imagenes/testimonio1.jpg" alt="Testimonio 1" class="testimonial-img">
+        <p class="testimonial-text">Testimonio de Juan: "¡Gracias a la práctica constante y al apoyo de este sitio, he
+          logrado mejorar mi
           rendimiento deportivo!"</p>
       </div>
-      <div class="testimonial">
-        <img src="Imagenes/testimoniomaria.jpg" alt="Testimonio 2">
-        <p>Testimonio de María: "Nunca pensé que podría superar mis límites hasta que encontré esta comunidad
+      <div class="testimonial testimonial-box">
+        <img src="Imagenes/testimoniomaria.jpg" alt="Testimonio 2" class="testimonial-img">
+        <p class="testimonial-text">Testimonio de María: "Nunca pensé que podría superar mis límites hasta que encontré
+          esta comunidad
           deportiva. ¡Recomendado al 100%!"</p>
       </div>
     </article>
   </section>
 
-  <section id="contacto">
-    <article>
+  <section id="contacto" class="section section-contacto">
+    <article class="article">
       <h2>Formulario de contacto</h2>
-      <form>
+      <form class="form">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br>
 
