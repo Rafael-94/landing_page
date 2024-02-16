@@ -13,7 +13,7 @@ body {
 
 /* Estilos para el logo */
 .logo {
-  width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+  width: 80px; /* Ajusta el tamaño del logo según sea necesario */
   display: block;
   margin: 0 auto; /* Centra el logo horizontalmente */
 }
@@ -65,12 +65,22 @@ body {
   margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
-.section-noticias .img,
-.section-testimonios .img {
-  width: 100%; /* Las imágenes en noticias y testimonios ocuparán todo el ancho de su contenedor */
-  max-width: 600px; /* Limita el tamaño máximo de las imágenes */
+.section-noticias .img {
+  width: 80%; /* Ajusta el tamaño de la imagen de noticias */
+  max-width: 600px; /* Limita el tamaño máximo de la imagen */
+  display: block;
+  margin: 0 auto; /* Centra la imagen */
 }
 
+.section-testimonios .img {
+  width: 200px; /* Ajusta el tamaño de la imagen de testimonios */
+  height: auto;
+  border-radius: 50%; /* Aplica un borde redondeado */
+  display: block;
+  margin: 0 auto; /* Centra la imagen */
+}
+
+/* Estilos para el video */
 .section-videos .video {
   width: 100%; /* El video ocupará todo el ancho de su contenedor */
 }
@@ -133,13 +143,6 @@ body {
 /* Estilos para los testimonios */
 .testimonial {
   text-align: center; /* Centra el contenido */
-}
-
-.testimonial-img {
-  width: 200px; /* Ajusta el tamaño de las imágenes */
-  border-radius: 50%; /* Aplica un borde redondeado a las imágenes */
-  margin-bottom: 10px; /* Añade espacio entre la imagen y el texto */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agrega sombra a las imágenes */
 }
 
 .testimonial-box {
