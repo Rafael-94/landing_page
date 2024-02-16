@@ -23,21 +23,21 @@ body {
   text-align: center; /* Centra los elementos de la navegación */
 }
 
-.nav ul {
+.nav-list {
   list-style-type: none;
   padding: 0;
 }
 
-.nav ul li {
+.nav-item {
   display: inline-block;
   margin-right: 20px;
 }
 
-.nav ul li:last-child {
+.nav-item:last-child {
   margin-right: 0; /* Elimina el margen derecho del último elemento */
 }
 
-.nav ul li a {
+.nav-link {
   color: #333;
   text-decoration: none;
   font-weight: bold;
