@@ -123,20 +123,20 @@ body {
 }
 
 /* Estilos para el menú */
-.nav ul li {
+.nav-item {
   display: inline-block;
   margin-right: 20px;
   position: relative; /* Agrega posición relativa para los elementos del menú */
 }
 
-.nav ul li a {
+.nav-link {
   color: #333;
   text-decoration: none;
   font-weight: bold;
   position: relative; /* Agrega posición relativa para los enlaces del menú */
 }
 
-.nav ul li a:hover {
+.nav-link:hover {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade sombra al pasar el cursor */
 }
 
@@ -170,9 +170,18 @@ body {
 .testimonial-text::before {
   content: "";
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: -20px;
   border-width: 10px;
   border-style: solid;
   border-color: transparent transparent #fff transparent;
+}
+
+.section-noticias {
+  background-color: #ccc; /* Fondo gris para la sección de noticias */
+}
+
+/* Estilos para la sección de testimonios */
+.section-testimonios {
+  background-color: #ccc;
 }
